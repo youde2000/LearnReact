@@ -1,6 +1,5 @@
 // 封装echarts图表，用于复用
 import * as echarts from 'echarts'
-const { useEffect } = require('react');
 
 // 1、把功能代码放到这个组件中
 // 2、把可变的部分抽象成prop参数

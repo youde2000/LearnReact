@@ -11,10 +11,8 @@ import router from './router'
 import store from './store'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Provider store={store}>
-      {/* 使用RouterProvider进行路由绑定 */}
-      <RouterProvider router={router}/>
-    </Provider>
-  </StrictMode>
+  <Provider store={store}>
+    {/* 使用RouterProvider进行路由绑定 */}
+    <RouterProvider router={router}/>
+  </Provider>
 )
